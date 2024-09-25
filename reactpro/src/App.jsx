@@ -1,3 +1,4 @@
+import Fruits from "./Fruits";
 import Hello from "./Hello";
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
         seatNumber={seatNumber}
       /> */}
 
-      <Hello person={person} />
+      {/* <Hello person={person} /> */}
+
+      <Fruits />
     </div>
   );
 }
