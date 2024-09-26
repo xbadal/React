@@ -23,6 +23,5 @@ export default function ConditionComponent() {
   //   }
 
   // Using the terniary operation
-
   return display ? <Welcome /> : <Code />;
 }
