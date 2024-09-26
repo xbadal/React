@@ -1,5 +1,6 @@
 import Fruits from "./Fruits";
 import Hello from "./Hello";
+import ConditionComponent from "./ConditionComponent";
 
 function App() {
   // const seatNumber = [1, 2, 3];
@@ -22,7 +23,9 @@ function App() {
 
       {/* <Hello person={person} /> */}
 
-      <Fruits />
+      {/* <Fruits /> */}
+
+      <ConditionComponent />
     </div>
   );
 }
