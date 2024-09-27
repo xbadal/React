@@ -3,6 +3,7 @@ import Hello from "./Hello";
 import ConditionComponent from "./ConditionComponent";
 import Message from "./Message";
 import Counter from "./Counter";
+import Form from "./Form";
 
 function App() {
   // const seatNumber = [1, 2, 3];
@@ -31,7 +32,9 @@ function App() {
 
       {/* <Message /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+
+      <Form />
     </div>
   );
 }
