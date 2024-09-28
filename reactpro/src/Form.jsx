@@ -7,6 +7,11 @@ export default function Form() {
   //     setName(event.target.value);
   //   }
 
+  function handleSubmit(event) {
+    event.preventDefault();
+    console.log(name);
+  }
+
   return (
     <div>
       <form>
@@ -14,13 +19,15 @@ export default function Form() {
           onChange={(e) => setName({ ...name, firstName: e.target.value })}
           type="text"
           value={name.firstName}
-        ></input>
+        />
 
         <input
           onChange={(e) => setName({ ...name, lastName: e.target.value })}
           type="text"
           value={name.lastName}
-        ></input>
+        />
+
+        <button onClick={(e) => handleSubmit(e)}>Add</button>
       </form>
     </div>
   );
